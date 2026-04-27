@@ -8,7 +8,7 @@ Application mobile Flutter dédiée aux chants de l'École du Sabbat, conçue po
 
 - 🎵 **Lecture audio** — Lecture des chants MP3 depuis les assets 
 - 🔍 **Recherche dynamique** 
-- 📂 **Catégories** — Zazaminono, Zazakely, Kilonga, Tous
+- 📂 **Catégories** — Zazaminono, Zazakely, Ankizy, Kilonga
 - ❤️ **Favoris** — Ajout/suppression persistants 
 - 📄 **Paroles** — Chargement automatique  
 - 🌙 **Thème Light/Dark** — Bascule globale 
