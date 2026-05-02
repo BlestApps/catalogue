@@ -1,0 +1,20 @@
+{
+  "id": "vaultsync",
+  "name": "VaultSync",
+  "tagline": "Sauvegarde chiffrée et synchronisation cloud",
+  "description": "VaultSync sauvegarde automatiquement vos fichiers sensibles avec un chiffrement AES-256, puis les synchronise sur votre stockage cloud préféré (S3, Backblaze, OneDrive). Planification flexible, versioning illimité et restauration en un clic.",
+  "version": "2.0.4",
+  "category": "Sécurité",
+  "icon": "🔒",
+  "download_url": "https://example.com/download/vaultsync",
+  "homepage_url": "https://example.com/vaultsync",
+  "changelog_url": "https://example.com/vaultsync/changelog",
+  "published_at": "2024-07-01",
+  "updated_at": "2025-02-28",
+  "platform": ["Windows", "Linux"],
+  "size": "22 MB",
+  "license": "Open Source",
+  "screenshots": [],
+  "tags": ["Backup", "Chiffrement", "Cloud", "Automatisation"],
+  "featured": false
+}

@@ -1,42 +1,112 @@
-# 🎵 Hira Sekoly Sabata
+# [SoftShelf] — Catalogue de logiciels
 
-Application mobile Flutter dédiée aux chants de l'École du Sabbat, conçue pour accompagner parents, éducateurs et enfants dans leur parcours musical et spirituel.
+> Site vitrine statique hébergé sur **GitHub Pages**. Chaque application est décrite dans un fichier JSON indépendant.
+
+🌐 **Démo live :** `https://<votre-username>.github.io/<nom-du-repo>`
 
 ---
 
 ## ✨ Fonctionnalités
 
-- 🎵 **Lecture audio** — Lecture des chants MP3 depuis les assets 
-- 🔍 **Recherche dynamique** 
-- 📂 **Catégories** — Zazaminono, Zazakely, Ankizy, Kilonga
-- ❤️ **Favoris** — Ajout/suppression persistants 
-- 📄 **Paroles** — Chargement automatique  
-- 🌙 **Thème Light/Dark** — Bascule globale 
-- 🎨 **Design cohérent** — Dégradé vertical uniforme sur toutes les pages principales
-- 💫 **Mini Player** — Lecteur persistant en bas d'écran, fermeture par swipe droite
+- 🗂 Catalogue filtrable par catégorie
+- 🔍 Recherche en temps réel (nom, description, tags…)
+- 🔢 Tri par vedette / date / nom
+- 📄 Modal détaillé par application
+- 📱 Responsive mobile
+- ⚡ Aucune dépendance, aucun build — HTML/CSS/JS pur
 
 ---
 
-## 👨‍💻 Développeur
+## 📁 Structure du projet
 
-**RATSIMBANIRINA Haja Bénit**
-Développeur Mobile — BlestDev
-
-- 📞 WhatsApp : [+261 34 14 399 13](https://wa.me/261341439913)
-- 🔵 Facebook : [@blestdev](https://www.facebook.com/blest.dev)
-- ✉️ Email : [blest.dev25@gmail.com](mailto:blest.dev25@gmail.com)
+```
+softshelf/
+├── index.html              # Page principale
+├── assets/
+│   ├── css/style.css       # Styles
+│   └── js/main.js          # Logique JS
+├── apps/
+│   ├── index.json          # Liste des fichiers JSON à charger
+│   ├── devsuit-pro.json    # Fiche application
+│   ├── pixelflow.json
+│   └── ...
+└── .github/
+    └── workflows/
+        └── deploy.yml      # Déploiement automatique sur GitHub Pages
+```
 
 ---
 
-## 🙏 Remerciements
+## ➕ Ajouter une application
 
-Gratitude à l'**Imprimerie Adventiste** et à **Madame RAHARISON Lahatriniavo** pour leur précieuse collaboration dans la production des chansons et la préparation des contenus intégrés à cette application.
+### 1. Créez un fichier JSON dans `apps/`
+
+```json
+{
+  "id": "mon-app",
+  "name": "Mon Application",
+  "tagline": "Courte accroche",
+  "description": "Description complète de l'application.",
+  "version": "1.0.0",
+  "category": "Productivité",
+  "icon": "🚀",
+  "download_url": "https://example.com/download",
+  "homepage_url": "https://example.com",
+  "changelog_url": "https://example.com/changelog",
+  "published_at": "2025-01-01",
+  "updated_at": "2025-01-15",
+  "platform": ["Windows", "macOS", "Linux"],
+  "size": "25 MB",
+  "license": "Gratuit",
+  "tags": ["tag1", "tag2", "tag3"],
+  "featured": false
+}
+```
+
+**Valeurs possibles pour `license` :** `Gratuit`, `Freemium`, `Payant`, `Open Source`
+
+### 2. Référencez le fichier dans `apps/index.json`
+
+```json
+{
+  "apps": [
+    "mon-app.json",
+    "autre-app.json"
+  ]
+}
+```
+
+### 3. Commitez et poussez
+
+Le workflow GitHub Actions déploiera automatiquement les changements.
+
+---
+
+## 🚀 Déploiement sur GitHub Pages
+
+1. **Forkez** ou importez ce dépôt sur votre compte GitHub
+2. Allez dans **Settings → Pages**
+3. Source : choisissez **GitHub Actions**
+4. Poussez sur `main` — le site est publié automatiquement
+
+---
+
+## 🛠 Développement local
+
+Aucun build requis. Lancez simplement un serveur local :
+
+```bash
+# Python
+python -m http.server 8080
+
+# Node.js
+npx serve .
+```
+
+Puis ouvrez `http://localhost:8080`
 
 ---
 
 ## 📄 Licence
 
-```
-Copyright 2026 BlestDev
-Tous droits réservés.
-```
+MIT — libre d'utilisation et de modification.

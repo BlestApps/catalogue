@@ -1,0 +1,20 @@
+{
+  "id": "datalens",
+  "name": "DataLens",
+  "tagline": "Visualisation de données sans code",
+  "description": "DataLens transforme vos fichiers CSV, Excel et bases SQL en graphiques interactifs en quelques clics. Créez des dashboards partageables avec filtres dynamiques, cartes choroplèthes et tableaux croisés. Aucune compétence en programmation requise.",
+  "version": "2.5.0",
+  "category": "Analyse de données",
+  "icon": "📊",
+  "download_url": "https://example.com/download/datalens",
+  "homepage_url": "https://example.com/datalens",
+  "changelog_url": "https://example.com/datalens/changelog",
+  "published_at": "2024-04-18",
+  "updated_at": "2025-02-10",
+  "platform": ["Windows", "macOS"],
+  "size": "85 MB",
+  "license": "Payant",
+  "screenshots": [],
+  "tags": ["Dashboard", "CSV", "SQL", "Charts"],
+  "featured": true
+}

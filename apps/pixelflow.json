@@ -1,0 +1,20 @@
+{
+  "id": "pixelflow",
+  "name": "PixelFlow",
+  "tagline": "Design vectoriel sans compromis",
+  "description": "PixelFlow est un éditeur vectoriel rapide et intuitif pensé pour les designers UI/UX. Il offre des composants réutilisables, un export SVG/PNG haute résolution, et un mode collaboration en temps réel. Idéal pour créer des maquettes et des icônes professionnelles.",
+  "version": "1.8.0",
+  "category": "Design",
+  "icon": "🎨",
+  "download_url": "https://example.com/download/pixelflow",
+  "homepage_url": "https://example.com/pixelflow",
+  "changelog_url": "",
+  "published_at": "2024-11-20",
+  "updated_at": "2025-01-08",
+  "platform": ["Windows", "macOS"],
+  "size": "62 MB",
+  "license": "Gratuit",
+  "screenshots": [],
+  "tags": ["Vectoriel", "UI/UX", "SVG", "Collaboration"],
+  "featured": true
+}

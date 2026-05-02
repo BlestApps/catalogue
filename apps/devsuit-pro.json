@@ -1,0 +1,20 @@
+{
+  "id": "devsuite-pro",
+  "name": "DevSuite Pro",
+  "tagline": "Your all-in-one developer toolkit",
+  "description": "DevSuite Pro regroupe un éditeur de code léger, un gestionnaire de snippets, un client HTTP et un débogueur JSON dans une seule application desktop. Conçu pour les développeurs qui veulent aller vite sans jongler entre dix outils.",
+  "version": "3.2.1",
+  "category": "Développement",
+  "icon": "🛠️",
+  "download_url": "https://example.com/download/devsuite-pro",
+  "homepage_url": "https://example.com/devsuite-pro",
+  "changelog_url": "https://example.com/devsuite-pro/changelog",
+  "published_at": "2025-03-15",
+  "updated_at": "2025-03-15",
+  "platform": ["Windows", "macOS", "Linux"],
+  "size": "48 MB",
+  "license": "Freemium",
+  "screenshots": [],
+  "tags": ["IDE", "HTTP Client", "JSON", "Snippets"],
+  "featured": true
+}
