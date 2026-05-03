@@ -10,8 +10,8 @@
   "changelog_url": "https://example.com/datalens/changelog",
   "published_at": "2026-05-01",
   "updated_at": "2026-05-01",
-  "platform": ["Android", "armeabi-v7a"],
-  "size": "98 MB",
+  "platform": ["Android", "Ancien version"],
+  "size": "96 MB",
   "screenshots": [],
   "tags": ["Chant", "Ecole du sabbat", "Enfants", "Parents", "Educateurs"],
   "featured": true
