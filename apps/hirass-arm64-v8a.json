@@ -9,7 +9,7 @@
   "download_url": "https://blestdev.dub.link/hirssV8",
   "published_at": "2026-05-01",
   "updated_at": "2026-05-01",
-  "platform": ["Android", "Nouvel version"],
+  "platform": ["Android", "arm64-v8a"],
   "size": "98 MB",
   "screenshots": [],
   "tags": ["Chant", "Ecole du sabbat", "Enfants", "Parents", "Educateurs"],
