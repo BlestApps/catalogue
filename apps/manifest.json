@@ -1,6 +1,5 @@
 {
   "apps": [
-    "hirass-armeabi-v7a.json",
     "hirass-arm64-v8a.json"
   ]
 }
